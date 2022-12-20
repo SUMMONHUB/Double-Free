@@ -6,9 +6,6 @@ local Tab = Window:NewTab("Main")
 
 local Section = Tab:NewSection("Main")
 
-Time = Main:Label("Server Time")
-Client = Main:Label("FPS Server")
-
 Section:NewButton("Copy Link Discord", "!", function()
 setclipboard("https://discord.gg/2Bm9jjZz")
 end)
